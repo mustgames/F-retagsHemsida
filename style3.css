@@ -1,0 +1,81 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    background-color: black;
+    color: limegreen;
+    text-align: center;
+
+    font-family: 'ITCAvantGardeStd-Bk',sans-serif;
+}
+ul{
+list-style-type: none;
+ display: flex;
+ flex-grow: 1;
+ flex-wrap: wrap;
+ align-items: left;
+
+ padding-top: 10px;
+ padding-bottom: 10px;
+}
+li a {
+     text-decoration: none;
+     padding-left: 20px;
+     padding-right: 20px;
+
+  }
+li a:hover {
+    background-color: grey;
+}
+h1{
+    font-size: 60px;
+    background-color: rgb(212, 0, 255);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+h2{
+    font-size: 35px;
+    padding-top: 160px;
+    padding-bottom: 15px;
+}
+main{
+    padding-left: 200px;
+    padding-right: 200px;
+}
+main p {
+    font-size: 20px;
+    text-align: left;
+    line-height: 1.4;   
+}
+.Leo h4{
+    padding-bottom: 183px;
+}
+footer h2{
+    padding-top: 50px;
+    padding-bottom: 10px;
+    background-color: rgb(212, 0, 255);
+
+}
+footer a{
+    
+    background-color: rgb(212, 0, 255);
+    padding-right: 784px;
+    padding-left: 783px;
+    padding-top: 1px;
+    padding-bottom: 50px;
+}
+.Malte{
+    height: 120;
+}
+.Malte img{
+    width: 10%;
+    height: auto;
+}
+.Leo{
+    height: 120;
+}
+.Leo img{
+    width: 10%;
+    height: auto;
+}
